@@ -1,11 +1,13 @@
-## homework_1
+## Homework_1
 
 01 HTML CSS Git: Code Refactor
 
-## repository
+## Repository
 
 1. html file for the refactor webpage
 2. assets include images used and css for style
+
+![Screenshot](./Screen_Shot.png)
 
 # Scope
 
