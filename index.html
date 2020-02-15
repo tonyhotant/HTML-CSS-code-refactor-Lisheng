@@ -7,25 +7,28 @@
     <title>Horiseon Social Solution Services</title>
 </head>
 
-<!--Header and top navigate bar-->
-
+<!--Navigate bar-->
+<!--use navigate bar in html instead of list of items-->
 <body>
     <div class="header">
         <h1>Horiseon</h1>
-        <div class="navigate-bar">
-            <a class="title-bar" href="#search-engine-optimization">Search Engine Optimization</a>
-            <a class="title-bar" href="#online-reputation-management">Online Reputation Management</a>
-            <a class="title-bar" href="#social-media-marketing">Social Media Marketing</a>
+        <div class="navbar">
+            <a class="navbar-item" href="#search-engine-optimization">Search Engine Optimization</a>
+            <a class="navbar-item" href="#online-reputation-management">Online Reputation Management</a>
+            <a class="navbar-item" href="#social-media-marketing">Social Media Marketing</a>
         </div>
     </div>
+
     <!--main large image-->
+    <!--use img tag in html and style in css-->
     <div>
-        <img class="hero" src="./assets/images/digital-marketing-meeting.jpg" alt="digital-marketing-meeting" />
+        <img class="main-image" src="./assets/images/digital-marketing-meeting.jpg" alt="digital-marketing-meeting" />
     </div>
-    <!--3 block contents-->
-    <div class="content">
-        <div class="content-title">
-            <img class="float-left" src="./assets/images/search-engine-optimization.jpg" alt="search-engine-optimization" />
+
+    <!--list group-->
+    <div class="list-group">
+        <div class="list-group-item">
+            <img class="list-image-left" src="./assets/images/search-engine-optimization.jpg" alt="search-engine-optimization" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching
@@ -34,9 +37,8 @@
                 visibility and find the right customers for your business.
             </p>
         </div>
-        <div class="content-title">
-            <img class="float-right" src="./assets/images/online-reputation-management.jpg"
-                alt="online-reputation-management" />
+        <div class="list-group-item">
+            <img class="list-image-right" src="./assets/images/online-reputation-management.jpg" alt="online-reputation-management" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social
@@ -46,8 +48,8 @@
                 business.
             </p>
         </div>
-        <div class="content-title">
-            <img class="float-left" src="./assets/images/social-media-marketing.jpg" alt="social-media-marketing" />
+        <div class="list-group-item">
+            <img class="list-image-left" src="./assets/images/social-media-marketing.jpg" alt="social-media-marketing" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits.
@@ -57,33 +59,35 @@
             </p>
         </div>
     </div>
-    <!--benefit side contents-->
-    <div class="benefits">
-        <div class="benefit-title">
+
+    <!--sidebar-->
+    <div class="sidebar">
+        <div class="sidebar-item">
             <h3>Lead Generation</h3>
-            <img class="display-block" src="./assets/images/lead-generation.png" alt="lead-generation" />
+            <img class="sidebar-image" src="./assets/images/lead-generation.png" alt="lead-generation" />
             <p>
                 Inbound strategies for lead generation require less work for your
                 business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-title">
+        <div class="sidebar-item">
             <h3>Brand Awareness</h3>
-            <img class="display-block" src="./assets/images/brand-awareness.png" alt="brand-awareness" />
+            <img class="sidebar-image" src="./assets/images/brand-awareness.png" alt="brand-awareness" />
             <p>
                 Users find your business through paid and organic searches, increasing
                 the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-title">
+        <div class="sidebar-item">
             <h3>Cost Management</h3>
-            <img class="display-block" src="./assets/images/cost-management.png" alt="cost-management" />
+            <img class="sidebar-image" src="./assets/images/cost-management.png" alt="cost-management" />
             <p>
                 As the search ranking for your business increases, your advertising
                 costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
     </div>
+    
     <!--footer-->
     <div class="footer">
         <h4>Made with ❤️️ by Horiseon</h4>

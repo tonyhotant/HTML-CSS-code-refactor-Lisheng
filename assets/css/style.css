@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* header and top navigate bar*/
+/* Navigate bar*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +24,7 @@ h1 {
     color: #d9dcd6;
 }
 
-.navigate-bar {
+.navbar {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,7 +32,7 @@ h1 {
     font-size: 20px;
 }
 
-.title-bar {
+.navbar-item {
     color: #ffffff;
     text-decoration: none;
     padding: 10px;
@@ -40,22 +40,22 @@ h1 {
 }
 
 /*main large image*/
-.hero {
+.main-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     object-fit: cover;
 }   
 
-/*3 block contents*/
-.content {
+/*list group*/
+.list-group {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
     font-size: 16px;
 }
 
-.content-title {
+.list-group-item {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -64,13 +64,13 @@ h1 {
     color: #ffffff;
 }
 
-.float-left {
+.list-image-left {
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
-.float-right {
+.list-image-right {
     float: right;
     margin-left: 25px;
     max-height: 200px;
@@ -81,8 +81,8 @@ h2 {
     font-size: 36px;
 }
 
-/*benefit side contents*/
-.benefits {
+/*sidebar*/
+.sidebar {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -93,7 +93,7 @@ h2 {
     background-color: #2589bd;
 }
 
-.benefit-title {
+.sidebar-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -103,7 +103,7 @@ h3 {
     text-align: center;
 }
 
-.display-block {
+.sidebar-image {
     display: block;
     margin: 10px auto;
     max-width: 150px;
