@@ -46,6 +46,7 @@ THEN I find a concise, descriptive title
 ## Log
 
 v1.0 14/02/20 initial release
+v2.0 20/02/20 add semantic elements to html and css
 
 ## To do
 
