@@ -1,6 +1,4 @@
-## Homework_1
-
-01 HTML CSS Git: Code Refactor
+## HTML CSS Git: Code Refactor
 
 ## Repository
 
@@ -39,19 +37,12 @@ THEN I find a concise, descriptive title
 
 ## Usage
 
-- The URL of the deployed application: https://tonyhotant.github.io/homework_1/
+- The URL of the deployed application: <https://tonyhotant.github.io/HTML-CSS-code-refactor-Lisheng>
 
-- The URL of the GitHub repository: https://github.com/tonyhotant/homework_1.git
+- The URL of the GitHub repository: <https://github.com/tonyhotant/HTML-CSS-code-refactor-Lisheng>
 
 ## Log
 
 v1.0 14/02/20 initial release
 
 v2.0 20/02/20 add semantic elements to html and css
-
-## To do
-
-1. continue improve SEO
-2. better class name
-3. better comments
-4. more responsive with different sizes of devices
